@@ -1,0 +1,20 @@
+{
+  "name": "enigma",
+  "version": "1.0.0",
+  "description": "OpenAi chatbot for instagram",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "vivek kankran",
+  "license": "ISC",
+  "dependencies": {
+    "botly": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.4.2",
+    "openai": "^3.3.0"
+  }
+}

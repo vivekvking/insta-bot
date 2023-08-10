@@ -1,0 +1,82 @@
+{
+  "_from": "botly",
+  "_id": "botly@1.6.2",
+  "_inBundle": false,
+  "_integrity": "sha512-d7tZ49+8dtqTeB/DDjxgBgPDce5RN5+9j5JyROzYjvtlqsubfcJigpzzlze+RoEFF9H8YuV53nJGxD3y7HvDkw==",
+  "_location": "/botly",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "botly",
+    "name": "botly",
+    "escapedName": "botly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/botly/-/botly-1.6.2.tgz",
+  "_shasum": "7cc62d57ad7211428d1ccf207accd59dd58585e4",
+  "_spec": "botly",
+  "_where": "/home/vivek/playground/enigma",
+  "author": {
+    "name": "Michael Dimenshtein",
+    "email": "miki2826@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/miki2826/botly/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "deprecated": false,
+  "description": "Simple Facebook Messenger Bot API",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "grunt": "^1.0.1",
+    "grunt-available-tasks": "^0.6.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-istanbul": "^0.8.0",
+    "grunt-mocha-test": "^0.13.2",
+    "load-grunt-config": "^0.19.2",
+    "mocha": "^4.0.1",
+    "mockery": "^2.0.0",
+    "node-mocks-http": "^1.5.2",
+    "sinon": "^4.1.2",
+    "time-grunt": "^1.3.0"
+  },
+  "homepage": "https://github.com/miki2826/botly#readme",
+  "keywords": [
+    "fb",
+    "botly",
+    "facebook",
+    "messenger",
+    "bot",
+    "platform",
+    "askrround",
+    "robot",
+    "Botly",
+    "msg",
+    "sdk",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "botly",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miki2826/botly.git"
+  },
+  "scripts": {
+    "test": "grunt default --verbose"
+  },
+  "version": "1.6.2"
+}
