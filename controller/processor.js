@@ -21,6 +21,7 @@ const processUserMessage = async (senderId, usertext) => {
             role: "assistant",
             message: responseText,
         });
+        console.log("\n\n AI USAGE =====> ", aiRes?.usage, "\n\n")
         await res_chatlog.save();
         await emitMsgToIgClient({senderId, responseText})
     } catch (err) {
