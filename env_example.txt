@@ -1,0 +1,22 @@
+# env in which app has to be run
+CS_ENV="dev"
+
+# port on which has to be run
+CS_PORT=8080
+
+# db creds
+CS_DB_URL=
+CS_DB_PORT=
+CS_DB_USERNAME=
+CS_DB_PASSWORD=
+CS_DB_NAME=
+
+# insta creds
+IGPageAccessToken=
+IGAppSecret=
+IGVerificationToken=
+IGPageId=
+IG_BOT_STATUS=true
+
+#openAi creds
+OPENAI_API_KEY_ENIGMA=
